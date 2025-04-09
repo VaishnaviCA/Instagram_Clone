@@ -1,0 +1,89 @@
+h1{
+  font-style:italic;
+}
+select{
+  border: none;
+  display: flex;
+  
+
+}
+button{
+  background-color:  #0095F6;
+  color: white;
+  border: none;
+  height:34px ;
+  width: 265px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+input{
+   border: solid 1px;
+ border-color: gray;
+  
+  border-radius: 3px;
+  
+}
+hr{
+  width: 250px;
+  color: rgb(181, 181, 181);
+}
+.or{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+.or:before,.or:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin:auto
+  
+}
+.or:before{
+  margin-right: 10px;
+}
+.or:after{
+  margin-left: 10px;
+}
+li{
+  color: rgb(0, 58, 247);
+  font-weight:500;
+  font-style: Tahoma;
+  cursor: pointer;
+  
+}
+.pass{
+  font-size: small;
+  cursor: pointer;
+  cursor: pointer;
+  color: #385185;
+ text-decoration: none;
+}
+.border{
+  
+  border-style: groove ;
+  border-radius: 3px;
+  width: 350px;
+  height: 450px;
+ 
+}
+.sign{
+  color: rgb(17, 122, 249);
+  cursor: pointer;
+
+}
+.acc{
+  
+  border-style: groove;
+  border-radius: 3px;
+  width: 350px;
+  height: 50px;
+  
+}
+img{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: #385185;
+}
